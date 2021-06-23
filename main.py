@@ -3,6 +3,7 @@ import numpy as np
 import return_models
 import risk_models
 
+#test merge
 
 def main(df_stocks, risk_free=0, num_portfolios=1000):
     all_returns = []
@@ -38,3 +39,4 @@ def main(df_stocks, risk_free=0, num_portfolios=1000):
     portfolios_df.columns = ['Return', 'Risk', 'Sharpe', 'Weights']
 
     return portfolios_df
+
