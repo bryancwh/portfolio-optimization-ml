@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-
+# Test1
 
 # Calculate returns given prices in type pd.DataFrame
 def percentage_returns(price):
