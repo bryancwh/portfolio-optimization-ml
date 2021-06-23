@@ -23,3 +23,4 @@ def portfolio_volatility(cov_matrix, weight):
     transpose_weight = np.transpose(weight)
     port_var = transpose_weight.dot(cov_matrix.dot(weight))
     return np.sqrt(port_var)
+    
